@@ -1,0 +1,39 @@
+{
+  "components": [
+    {
+      "tag": "my-header",
+      "dependencies": [],
+      "componentClass": "MyHeader",
+      "componentPath": "components/my-header/my-header.js",
+      "styles": {
+        "$": {
+          "stylePaths": [
+            "components/my-header/my-header.css"
+          ]
+        }
+      },
+      "props": [
+        {
+          "name": "first",
+          "type": "String"
+        },
+        {
+          "name": "second",
+          "type": "String"
+        },
+        {
+          "name": "third",
+          "type": "String"
+        }
+      ],
+      "shadow": true
+    }
+  ],
+  "collections": [],
+  "compiler": {
+    "name": "@stencil/core",
+    "version": "0.6.18",
+    "typescriptVersion": "2.7.2"
+  },
+  "bundles": []
+}
